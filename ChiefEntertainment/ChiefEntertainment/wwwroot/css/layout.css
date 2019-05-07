@@ -1,0 +1,35 @@
+﻿body {
+}
+
+.innerbody {
+    display: flex;
+    flex-flow: row;
+}
+
+nav {
+    width: 20vw;
+    margin: 10vw auto 5vw;
+}
+
+    nav > ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+    }
+
+        nav > ul > li {
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+
+#mainlogo {
+    width: 60vw;
+    margin-top: 5vw;
+    display: flex;
+}
+
+    #mainlogo > img {
+        align-self: center;
+        max-width: 30vw;
+        max-height: 30vw;
+    }

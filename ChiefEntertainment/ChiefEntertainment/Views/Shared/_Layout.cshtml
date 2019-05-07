@@ -3,17 +3,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/reset.css" rel="stylesheet" />
-    <link href="~/base.css" rel="stylesheet" />
-    <link href="~/layout.css" rel="stylesheet" />
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/base.css" rel="stylesheet" />
+    <link href="~/css/layout.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <header>
+    <header></header>
+    <div class="innerbody">
         <partial name="_NavPartial.cshtml" />
-    </header>
-    <div>
-        @RenderBody()
+        @RenderBody();
     </div>
+    <footer></footer>
 </body>
 </html>
