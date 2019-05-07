@@ -9,7 +9,10 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <header></header>
+    <img id="menu" src="~/img/menu_icon.png" alt="Alternate Text" />
+    <header>
+        @*TODO: Add today's calendar events on carousel here*@
+    </header>
     <div class="innerbody">
         <partial name="_NavPartial.cshtml" />
         @RenderBody();

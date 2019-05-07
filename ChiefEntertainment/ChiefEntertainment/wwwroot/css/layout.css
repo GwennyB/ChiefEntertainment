@@ -1,35 +1,89 @@
 ﻿body {
 }
 
+div, nav {
+    outline: white solid 1px;
+}
+
+#menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+}
+
 .innerbody {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
 }
 
 nav {
-    width: 20vw;
-    margin: 10vw auto 5vw;
+    display: none;
 }
 
     nav > ul {
         display: flex;
-        flex-flow: column wrap;
-        justify-content: space-evenly;
+        flex-flow: column;
+        align-items: center;
     }
 
         nav > ul > li {
-            margin-bottom: 2vw;
-            font-size: 2vw;
+            font-size: 3em;
+            margin-bottom: 1em;
         }
 
-#mainlogo {
-    width: 60vw;
-    margin-top: 5vw;
-    display: flex;
+.maincontent {
+    width: 100%;
 }
 
-    #mainlogo > img {
-        align-self: center;
-        max-width: 30vw;
-        max-height: 30vw;
+#mainlogo {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 769px) {
+    .innerbody {
+        display: flex;
+        flex-flow: row;
+        height: 75vh;
+        margin-top: 5vh;
     }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        width: 15vw;
+        height: 100%;
+        display: flex;
+        flex-flow: row;
+    }
+
+        nav > ul {
+            width: 100%;
+            align-self: center;
+            display: flex;
+            flex-flow: column;
+        }
+
+            nav > ul > li {
+                margin-bottom: 2vw;
+                align-self: flex-end;
+                font-size: 2vw;
+            }
+
+    #maincontent {
+        width: 85vw;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    #mainlogo {
+        align-self: center;
+        max-width: 50vw;
+    }
+}
