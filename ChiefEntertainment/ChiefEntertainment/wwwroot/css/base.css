@@ -1,0 +1,53 @@
+﻿body {
+    color: black;
+}
+
+div, nav, ul, iframe {
+    outline: orange solid 1px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p, a, label, input, textarea {
+    font-size: 1em;
+}
+
+
+
+#index .index,
+#services .services,
+#about .about,
+#testimonials .testimonials,
+#calendar .calendar,
+#booking .booking,
+#contact .contact {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+nav, nav a:visited, nav a:link {
+    text-decoration: none;
+}
