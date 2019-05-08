@@ -1,3 +1,10 @@
 ﻿body {
-    
+}
+
+div, nav {
+    outline: orange solid 1px;
+}
+
+a {
+    color: black;
 }

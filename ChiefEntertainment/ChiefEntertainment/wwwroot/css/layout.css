@@ -1,8 +1,7 @@
-﻿body {
-}
+﻿
 
-div, nav {
-    outline: white solid 1px;
+header {
+    height: 10vh;
 }
 
 #menu {
@@ -19,7 +18,7 @@ div, nav {
 }
 
 nav {
-    display: none;
+    display: block;
 }
 
     nav > ul {
@@ -40,7 +39,6 @@ nav {
 #mainlogo {
     max-width: 80%;
     margin-left: 10%;
-    margin-top: 60px;
 }
 
 @media screen and (min-width: 769px) {
@@ -84,6 +82,10 @@ nav {
 
     #mainlogo {
         align-self: center;
-        max-width: 50vw;
+        max-width: 40vw;
     }
+}
+
+iframe {
+    width: 100%;
 }
