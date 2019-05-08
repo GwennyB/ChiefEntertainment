@@ -1,10 +1,26 @@
 ﻿body {
 }
 
-div, nav {
+div, nav, ul, iframe {
     outline: orange solid 1px;
 }
 
 a {
     color: black;
+}
+
+#index .index,
+#services .services,
+#about .about,
+#testimonials .testimonials,
+#calendar .calendar,
+#booking .booking,
+#contact .contact {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+nav, nav a:visited, nav a:link {
+    text-decoration: none;
 }
