@@ -90,4 +90,31 @@ nav {
         margin: 0px;
         width: 85%;
     }
+
+    form {
+        align-self: center;
+        padding: 2vh;
+        width: 50%;
+        margin-left: 10%;
+        border: blue solid 2px;
+        display: flex;
+        flex-flow: column;
+    }
+
+
+        form fieldset, form button {
+            width: 100%;
+            margin-bottom: 1vh;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 1vh;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form p {
+            font-size: 1em;
+            width: 99%;
+        }
 }
